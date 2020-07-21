@@ -1,0 +1,12 @@
+<div>
+    <form id="create-form" class="form" [formGroup]="todos">
+        <h3 class="text-center">Create New Task</h3>
+        <div class="form-group">
+            <label for="title" class="text-info1">Title:</label><br>
+            <input type="text" formControlName="title" class="form-control">
+        </div>
+        <div class="form-group">
+            <button (click)='createTask(todos)' class="btn btn-info btn-md">Create</button>
+        </div>
+    </form>
+</div>

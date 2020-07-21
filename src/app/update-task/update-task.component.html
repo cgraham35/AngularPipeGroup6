@@ -1,0 +1,28 @@
+<div>
+    <!-- {{pageTitle}} -->
+    <form id="update-form" class="form" [formGroup] = "todos">
+        <h3 class="text-center" >Update Task</h3>
+        <div class="form-group">
+            <label for="id" class="text-info1">ID:</label><br>
+            <input type="text" formControlName="id" class="form-control" readonly />
+            <label for="title" class="text-info1">Title:</label><br>
+            <input type="text" formControlName="title" class="form-control"  />
+            <label for="createdOn" class="text-info1">Created On:</label><br>
+            <input type="text" formControlName="createdOn" class="form-control" readonly/>
+            <label for="completed" class="text-info1">Completion Status:</label><br>
+            <select formControlName="completed" class="form-control">
+              <option value="false">False</option>
+              <option value="true">True</option>
+            </select>
+        </div>
+        <div [hidden]="!putError" class="alert alert-danger">
+            {{errorMsg}}
+        </div>
+        <div class="form-group">
+            <button (click)='updateTask(todos)' class="button">Update</button>
+        </div>
+    </form>
+</div>
+
+
+<!-- {{todos.value | json}} -->

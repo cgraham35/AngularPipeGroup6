@@ -1,0 +1,32 @@
+
+.jumbotron {
+    color: #dd6e6d;
+    background-color: #f4e099;
+    padding: 1%;
+    margin-left: 0%;
+}
+
+
+.nav-item {
+    padding: 0%;
+    margin-left: .5cm;
+    border-radius: 25px;
+    box-sizing: content-box ;
+}
+
+.toss {
+    position: relative;
+    z-index: -1;
+}
+
+.icon:hover {
+    background-color: #f4e099 ;
+    border-radius: 25px;
+
+}
+
+.icon2:hover{
+    background-color: #f4e099 ;
+    border-radius: 25px;
+    border-width: 20000cm;
+}

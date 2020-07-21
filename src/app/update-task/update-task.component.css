@@ -1,0 +1,56 @@
+
+button {
+    color: white;
+    background-color: #2ec194;
+    border-radius: 25px;
+    border: white;
+    font-family:Gotham Medium; 
+    font-size: 100%;
+
+}
+
+button:hover {
+    color: #2ec194;
+    background-color: white;
+}
+
+.text-info1{
+    color: #2ec194;
+    font-family:Gotham Medium; 
+    color: white;
+    position: center;
+    background-color: black;
+    border-radius: 25px;
+    width: 15%;
+    padding-left: 2%;
+    margin: 1%;
+
+
+}
+
+.form-control{
+    background-color: white;
+    border-radius: 25px;
+    font-family:Gotham Medium; 
+}
+
+.form-control:hover{
+    background-color: gray;
+    color: white;
+}
+
+body{
+    color: white;
+}
+
+h3 {
+    color: white;
+    position: center;
+    background-color: black;
+    border-radius: 25px;
+    padding-left: 20px;
+    font-size: 200%;
+    font-family:Gotham Medium; 
+    object-fit: scale-down;
+}
+
