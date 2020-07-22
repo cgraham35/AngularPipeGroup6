@@ -12,7 +12,7 @@ h3 {
 .form-control{
     background-color: white;
     border-radius: 25px;
-    font-family:Gotham Medium; 
+    /* font-family:Gotham Medium;  */
 }
 
 .form-control:hover{
